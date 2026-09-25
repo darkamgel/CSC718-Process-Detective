@@ -150,7 +150,6 @@ r3/r3_results.pdf
 - Queue synchronization, mutex/condition-variable operations, thread
   scheduling, and context switching may limit scaling.
 - Queue capacity is fixed at 10.
-- `-1` is reserved as the poison-pill shutdown value.
 
 ## AI Use Disclosure
 
