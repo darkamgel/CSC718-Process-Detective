@@ -170,7 +170,6 @@ r3/r3_results.pdf
   scheduling, context switching, and shared-resource contention may limit
   scaling.
 - Queue capacity is fixed at 10.
-- `-1` is reserved as the poison-pill shutdown value.
 
 ## AI Use Disclosure
 
