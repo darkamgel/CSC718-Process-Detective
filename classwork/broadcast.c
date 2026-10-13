@@ -48,3 +48,5 @@ Instead of manually sending the data to each computer using multiple MPI_Send() 
 
 // MPI_Bcast() — All processes receive the same data.
 // MPI_Scatter() — Different processes receive different portions of the data.
+
+// Rank 0 starts with the data, MPI_Bcast() distributes it, and every MPI process verifies that it received the same values.
